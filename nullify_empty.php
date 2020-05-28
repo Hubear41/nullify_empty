@@ -1,10 +1,9 @@
 <?php
 /*
    Plugin Name: Nullify Fields
-   Plugin URI: http://my-awesomeness-emporium.com
-   description: >- Prevents WordPress from returning `false` for 
-      empty fields instead of empty arrays or null. Customized for AAIFF Website.
-      Based off of the comment: https://github.com/gatsbyjs/gatsby/issues/4461
+    Plugin URI: https://github.com/Hubear41/nullify_empty
+   description: Nullifies empty ACF fields to prevent GraphQL from obscuring the fields.
+      Based off of the comment at: https://github.com/gatsbyjs/gatsby/issues/4461
    Version: 1.0
    Author: Dennis Hu
    License: GPL2
