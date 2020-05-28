@@ -9,6 +9,9 @@
    License: GPL2
    */
 
+// Nullifying Empty ACF Values
+// Fixes optional fields being obscured by GraphQL   
+
 function nullify_empty($value, $post_id, $field)
 {
    if (empty($value)) {
