@@ -25,3 +25,4 @@ add_filter('acf/format_value/type=image', 'nullify_empty', 100, 3);
 add_filter('acf/format_value/type=relationship', 'nullify_empty', 100, 3);
 add_filter('acf/format_value/type=taxonomy', 'nullify_empty', 100, 3);
 add_filter('acf/format_value/type=post_object', 'nullify_empty', 100, 3);
+add_filter('acf/format_value/type=repeater', 'nullify_empty', 100, 3);
